@@ -11,6 +11,8 @@
 		99BE55AE2CA78E2600F3DAB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55AD2CA78E2600F3DAB6 /* ContentView.swift */; };
 		99BE55B02CA78E2800F3DAB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55AF2CA78E2800F3DAB6 /* Assets.xcassets */; };
 		99BE55B32CA78E2800F3DAB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55B22CA78E2800F3DAB6 /* Preview Assets.xcassets */; };
+		99BE55BE2CAAED5E00F3DAB6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */; };
+		99BE55C02CAAEEB200F3DAB6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		99BE55AD2CA78E2600F3DAB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99BE55AF2CA78E2800F3DAB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BE55B22CA78E2800F3DAB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				99BE55AB2CA78E2600F3DAB6 /* SpotzApp.swift */,
 				99BE55AD2CA78E2600F3DAB6 /* ContentView.swift */,
 				99BE55AF2CA78E2800F3DAB6 /* Assets.xcassets */,
+				99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */,
+				99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */,
 				99BE55B12CA78E2800F3DAB6 /* Preview Content */,
 			);
 			path = Spotz;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99BE55AE2CA78E2600F3DAB6 /* ContentView.swift in Sources */,
+				99BE55C02CAAEEB200F3DAB6 /* MapView.swift in Sources */,
 				99BE55AC2CA78E2600F3DAB6 /* SpotzApp.swift in Sources */,
+				99BE55BE2CAAED5E00F3DAB6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
