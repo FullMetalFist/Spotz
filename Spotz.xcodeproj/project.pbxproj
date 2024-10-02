@@ -13,6 +13,12 @@
 		99BE55B32CA78E2800F3DAB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55B22CA78E2800F3DAB6 /* Preview Assets.xcassets */; };
 		99BE55BE2CAAED5E00F3DAB6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */; };
 		99BE55C02CAAEEB200F3DAB6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */; };
+		99BE55C22CAC800E00F3DAB6 /* parkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55C12CAC800E00F3DAB6 /* parkData.json */; };
+		99BE55C42CAC829100F3DAB6 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55C32CAC829100F3DAB6 /* Spot.swift */; };
+		99BE55C62CAC847700F3DAB6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55C52CAC847700F3DAB6 /* ModelData.swift */; };
+		99BE55CB2CAC94A100F3DAB6 /* SpotRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CA2CAC94A100F3DAB6 /* SpotRow.swift */; };
+		99BE55CD2CAC95CE00F3DAB6 /* SpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CC2CAC95CE00F3DAB6 /* SpotList.swift */; };
+		99BE55CF2CAC965100F3DAB6 /* SpotDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CE2CAC965100F3DAB6 /* SpotDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		99BE55B22CA78E2800F3DAB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		99BE55C12CAC800E00F3DAB6 /* parkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parkData.json; sourceTree = "<group>"; };
+		99BE55C32CAC829100F3DAB6 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		99BE55C52CAC847700F3DAB6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		99BE55CA2CAC94A100F3DAB6 /* SpotRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotRow.swift; sourceTree = "<group>"; };
+		99BE55CC2CAC95CE00F3DAB6 /* SpotList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotList.swift; sourceTree = "<group>"; };
+		99BE55CE2CAC965100F3DAB6 /* SpotDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				99BE55AB2CA78E2600F3DAB6 /* SpotzApp.swift */,
-				99BE55AD2CA78E2600F3DAB6 /* ContentView.swift */,
+				99BE55C72CAC856600F3DAB6 /* Views */,
 				99BE55AF2CA78E2800F3DAB6 /* Assets.xcassets */,
-				99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */,
-				99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */,
+				99BE55C82CAC857B00F3DAB6 /* Model */,
+				99BE55C92CAC858500F3DAB6 /* Resources */,
 				99BE55B12CA78E2800F3DAB6 /* Preview Content */,
 			);
 			path = Spotz;
@@ -71,6 +83,36 @@
 				99BE55B22CA78E2800F3DAB6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99BE55C72CAC856600F3DAB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99BE55AD2CA78E2600F3DAB6 /* ContentView.swift */,
+				99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */,
+				99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */,
+				99BE55CA2CAC94A100F3DAB6 /* SpotRow.swift */,
+				99BE55CC2CAC95CE00F3DAB6 /* SpotList.swift */,
+				99BE55CE2CAC965100F3DAB6 /* SpotDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99BE55C82CAC857B00F3DAB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99BE55C32CAC829100F3DAB6 /* Spot.swift */,
+				99BE55C52CAC847700F3DAB6 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99BE55C92CAC858500F3DAB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99BE55C12CAC800E00F3DAB6 /* parkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99BE55B32CA78E2800F3DAB6 /* Preview Assets.xcassets in Resources */,
+				99BE55C22CAC800E00F3DAB6 /* parkData.json in Resources */,
 				99BE55B02CA78E2800F3DAB6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,8 +188,13 @@
 			files = (
 				99BE55AE2CA78E2600F3DAB6 /* ContentView.swift in Sources */,
 				99BE55C02CAAEEB200F3DAB6 /* MapView.swift in Sources */,
+				99BE55C42CAC829100F3DAB6 /* Spot.swift in Sources */,
+				99BE55CF2CAC965100F3DAB6 /* SpotDetail.swift in Sources */,
+				99BE55CD2CAC95CE00F3DAB6 /* SpotList.swift in Sources */,
 				99BE55AC2CA78E2600F3DAB6 /* SpotzApp.swift in Sources */,
+				99BE55CB2CAC94A100F3DAB6 /* SpotRow.swift in Sources */,
 				99BE55BE2CAAED5E00F3DAB6 /* CircleImage.swift in Sources */,
+				99BE55C62CAC847700F3DAB6 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

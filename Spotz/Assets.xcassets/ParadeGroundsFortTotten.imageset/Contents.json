@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ParadeGroundsFortTotten.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
