@@ -17,12 +17,18 @@ struct SpotRow: View {
             Text(spot.name)
             
             Spacer()
+            
+            if spot.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
 
 #Preview {
-    Group {
+    let spotz = ModelData().spotz
+    return Group {
         SpotRow(spot: spotz[0])
         SpotRow(spot: spotz[1])
     }

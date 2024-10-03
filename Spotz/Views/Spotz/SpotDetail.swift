@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct SpotDetail: View {
+    @Environment(ModelData.self) var modelData
     var spot: Spot
     
+    var spotIndex: Int {
+        modelData.spotz.firstIndex(where: { $0.id == spot.id })!
+    }
+    
     var body: some View {
+        @Bindable var modelData = modelData
+        
         ScrollView {
             MapView(coordinate: spot.locationCoordinate)
                 .frame(height: 300)
@@ -19,8 +26,11 @@ struct SpotDetail: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text(spot.name)
-                    .font(.title)
+                HStack {
+                    Text(spot.name)
+                        .font(.title)
+                    FavoriteButton(isSet: $modelData.spotz[spotIndex].isFavorite)
+                }
                 HStack {
                     Text(spot.park)
                         
@@ -42,5 +52,7 @@ struct SpotDetail: View {
 }
 
 #Preview {
-    SpotDetail(spot: spotz[0])
+    let modelData = ModelData()
+    return SpotDetail(spot: modelData.spotz[0])
+        .environment(modelData)
 }
