@@ -16,6 +16,16 @@ struct Spot: Hashable, Codable, Identifiable {
     var state: String
     var description: String
     var isFavorite: Bool
+    var hasVisited: Bool
+    
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case biking = "Biking"
+        case field = "Field"
+        case historical = "Historical"
+        case playground = "Playground"
+        case ponds = "Ponds"
+    }
     
     private var imageName: String
     var image: Image {
