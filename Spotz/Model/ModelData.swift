@@ -11,6 +11,17 @@ import Foundation
 class ModelData {
     var spotz: [Spot] = load("parkData.json")
     var hikes: [Hike] = load("hikeData.json")
+    
+    var visits: [Spot] {
+        spotz.filter { $0.hasVisited }
+    }
+    
+    var categories: [String: [Spot]] {
+        Dictionary(
+            grouping: spotz,
+            by: { $0.category.rawValue }
+        )
+    }
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
