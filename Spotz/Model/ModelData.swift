@@ -11,6 +11,7 @@ import Foundation
 class ModelData {
     var spotz: [Spot] = load("parkData.json")
     var hikes: [Hike] = load("hikeData.json")
+    var profile = Profile.default
     
     var visits: [Spot] {
         spotz.filter { $0.hasVisited }
