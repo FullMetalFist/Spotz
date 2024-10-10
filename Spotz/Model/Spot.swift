@@ -31,6 +31,9 @@ struct Spot: Hashable, Codable, Identifiable {
     var image: Image {
         Image(imageName)
     }
+    var visitedImage: Image? {
+        hasVisited ? Image(imageName + "_Visited", bundle: nil) : nil
+    }
     
     private var coordinates: Coordinates
     var locationCoordinate: CLLocationCoordinate2D {
