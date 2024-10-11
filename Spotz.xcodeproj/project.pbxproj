@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990812862CB86AFB008CCF7A /* SpotDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990812852CB86AFB008CCF7A /* SpotDetail.swift */; };
 		990B6FE42CB572530035730F /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B6FE32CB572530035730F /* CategoryHome.swift */; };
 		990B6FE62CB574EF0035730F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B6FE52CB574EF0035730F /* CategoryRow.swift */; };
 		990B6FE82CB57B9D0035730F /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B6FE72CB57B9D0035730F /* CategoryItem.swift */; };
@@ -19,6 +20,25 @@
 		990B6FFD2CB742AB0035730F /* VisitedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B6FFC2CB742AB0035730F /* VisitedCard.swift */; };
 		990B6FFF2CB7440C0035730F /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B6FFE2CB7440C0035730F /* PageView.swift */; };
 		990B70012CB753D60035730F /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B70002CB753D60035730F /* PageControl.swift */; };
+		990B700B2CB83E000035730F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B700A2CB83E000035730F /* ContentView.swift */; };
+		990B700D2CB83E010035730F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990B700C2CB83E010035730F /* Assets.xcassets */; };
+		990B70102CB83E010035730F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990B700F2CB83E010035730F /* Preview Assets.xcassets */; };
+		990B70132CB83E010035730F /* WatchSpotz Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 990B70062CB83E000035730F /* WatchSpotz Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		990B70182CB83E6F0035730F /* SpotRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CA2CAC94A100F3DAB6 /* SpotRow.swift */; };
+		990B70192CB83E6F0035730F /* SpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CC2CAC95CE00F3DAB6 /* SpotList.swift */; };
+		990B701A2CB83E6F0035730F /* SpotzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55AB2CA78E2600F3DAB6 /* SpotzApp.swift */; };
+		990B701B2CB83E6F0035730F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */; };
+		990B701C2CB83E6F0035730F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */; };
+		990B701D2CB83E870035730F /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55C32CAC829100F3DAB6 /* Spot.swift */; };
+		990B701E2CB83E870035730F /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D606A02CB1B7E2004088E2 /* Hike.swift */; };
+		990B701F2CB83E870035730F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B6FEF2CB6BD980035730F /* Profile.swift */; };
+		990B70202CB83E870035730F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55C52CAC847700F3DAB6 /* ModelData.swift */; };
+		990B70212CB83E960035730F /* parkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55C12CAC800E00F3DAB6 /* parkData.json */; };
+		990B70222CB83E960035730F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55AF2CA78E2800F3DAB6 /* Assets.xcassets */; };
+		990B70232CB83E960035730F /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 99D606A22CB1B88C004088E2 /* hikeData.json */; };
+		990B70252CB8402B0035730F /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C52D72CAEBFB000B358CB /* FavoriteButton.swift */; };
+		9956496E2CB97407006E4192 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9956496D2CB97407006E4192 /* NotificationView.swift */; };
+		995649702CB975C1006E4192 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9956496F2CB975C1006E4192 /* NotificationController.swift */; };
 		996C52D82CAEBFB000B358CB /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C52D72CAEBFB000B358CB /* FavoriteButton.swift */; };
 		996C52DC2CB07F0E00B358CB /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C52DB2CB07F0E00B358CB /* HexagonParameters.swift */; };
 		996C52DE2CB080F000B358CB /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C52DD2CB080F000B358CB /* BadgeBackground.swift */; };
@@ -45,7 +65,32 @@
 		99D606AC2CB1BA14004088E2 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D606A72CB1BA14004088E2 /* HikeView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		990B70112CB83E010035730F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BE55A02CA78E2600F3DAB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990B70052CB83E000035730F;
+			remoteInfo = "WatchSpotz Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		990B70142CB83E010035730F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				990B70132CB83E010035730F /* WatchSpotz Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		990812852CB86AFB008CCF7A /* SpotDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetail.swift; sourceTree = "<group>"; };
 		990B6FE32CB572530035730F /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		990B6FE52CB574EF0035730F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		990B6FE72CB57B9D0035730F /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -58,6 +103,13 @@
 		990B6FFC2CB742AB0035730F /* VisitedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedCard.swift; sourceTree = "<group>"; };
 		990B6FFE2CB7440C0035730F /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		990B70002CB753D60035730F /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		990B70062CB83E000035730F /* WatchSpotz Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchSpotz Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		990B700A2CB83E000035730F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		990B700C2CB83E010035730F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		990B700F2CB83E010035730F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9956496D2CB97407006E4192 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9956496F2CB975C1006E4192 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		995649712CB97821006E4192 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		996C52D72CAEBFB000B358CB /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		996C52DB2CB07F0E00B358CB /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		996C52DD2CB080F000B358CB /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -86,6 +138,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		990B70032CB83E000035730F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99BE55A52CA78E2600F3DAB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,6 +186,28 @@
 			path = PageView;
 			sourceTree = "<group>";
 		};
+		990B70072CB83E000035730F /* WatchSpotz Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				990B700A2CB83E000035730F /* ContentView.swift */,
+				990812852CB86AFB008CCF7A /* SpotDetail.swift */,
+				9956496D2CB97407006E4192 /* NotificationView.swift */,
+				9956496F2CB975C1006E4192 /* NotificationController.swift */,
+				995649712CB97821006E4192 /* PushNotificationPayload.apns */,
+				990B700C2CB83E010035730F /* Assets.xcassets */,
+				990B700E2CB83E010035730F /* Preview Content */,
+			);
+			path = "WatchSpotz Watch App";
+			sourceTree = "<group>";
+		};
+		990B700E2CB83E010035730F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				990B700F2CB83E010035730F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		996C52D92CAEC02900B358CB /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				99BE55AA2CA78E2600F3DAB6 /* Spotz */,
+				990B70072CB83E000035730F /* WatchSpotz Watch App */,
 				99BE55A92CA78E2600F3DAB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -171,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				99BE55A82CA78E2600F3DAB6 /* Spotz.app */,
+				990B70062CB83E000035730F /* WatchSpotz Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,6 +329,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		990B70052CB83E000035730F /* WatchSpotz Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990B70172CB83E010035730F /* Build configuration list for PBXNativeTarget "WatchSpotz Watch App" */;
+			buildPhases = (
+				990B70022CB83E000035730F /* Sources */,
+				990B70032CB83E000035730F /* Frameworks */,
+				990B70042CB83E000035730F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchSpotz Watch App";
+			productName = "WatchSpotz Watch App";
+			productReference = 990B70062CB83E000035730F /* WatchSpotz Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		99BE55A72CA78E2600F3DAB6 /* Spotz */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99BE55B62CA78E2800F3DAB6 /* Build configuration list for PBXNativeTarget "Spotz" */;
@@ -253,10 +353,12 @@
 				99BE55A42CA78E2600F3DAB6 /* Sources */,
 				99BE55A52CA78E2600F3DAB6 /* Frameworks */,
 				99BE55A62CA78E2600F3DAB6 /* Resources */,
+				990B70142CB83E010035730F /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				990B70122CB83E010035730F /* PBXTargetDependency */,
 			);
 			name = Spotz;
 			productName = Spotz;
@@ -273,6 +375,9 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					990B70052CB83E000035730F = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					99BE55A72CA78E2600F3DAB6 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -292,11 +397,24 @@
 			projectRoot = "";
 			targets = (
 				99BE55A72CA78E2600F3DAB6 /* Spotz */,
+				990B70052CB83E000035730F /* WatchSpotz Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		990B70042CB83E000035730F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990B70102CB83E010035730F /* Preview Assets.xcassets in Resources */,
+				990B70212CB83E960035730F /* parkData.json in Resources */,
+				990B70222CB83E960035730F /* Assets.xcassets in Resources */,
+				990B70232CB83E960035730F /* hikeData.json in Resources */,
+				990B700D2CB83E010035730F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99BE55A62CA78E2600F3DAB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,6 +429,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		990B70022CB83E000035730F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990812862CB86AFB008CCF7A /* SpotDetail.swift in Sources */,
+				990B700B2CB83E000035730F /* ContentView.swift in Sources */,
+				990B70182CB83E6F0035730F /* SpotRow.swift in Sources */,
+				9956496E2CB97407006E4192 /* NotificationView.swift in Sources */,
+				990B70192CB83E6F0035730F /* SpotList.swift in Sources */,
+				990B70252CB8402B0035730F /* FavoriteButton.swift in Sources */,
+				990B701D2CB83E870035730F /* Spot.swift in Sources */,
+				990B701E2CB83E870035730F /* Hike.swift in Sources */,
+				990B701F2CB83E870035730F /* Profile.swift in Sources */,
+				990B70202CB83E870035730F /* ModelData.swift in Sources */,
+				995649702CB975C1006E4192 /* NotificationController.swift in Sources */,
+				990B701A2CB83E6F0035730F /* SpotzApp.swift in Sources */,
+				990B701B2CB83E6F0035730F /* CircleImage.swift in Sources */,
+				990B701C2CB83E6F0035730F /* MapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99BE55A42CA78E2600F3DAB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,7 +491,77 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		990B70122CB83E010035730F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990B70052CB83E000035730F /* WatchSpotz Watch App */;
+			targetProxy = 990B70112CB83E010035730F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		990B70152CB83E010035730F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchSpotz Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q3CLN5Y6Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchSpotz;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = FullMetalFistApps.Spotz;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FullMetalFistApps.Spotz.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		990B70162CB83E010035730F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchSpotz Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q3CLN5Y6Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchSpotz;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = FullMetalFistApps.Spotz;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FullMetalFistApps.Spotz.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 		99BE55B42CA78E2800F3DAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -475,6 +684,7 @@
 		99BE55B72CA78E2800F3DAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +714,7 @@
 		99BE55B82CA78E2800F3DAB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +744,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		990B70172CB83E010035730F /* Build configuration list for PBXNativeTarget "WatchSpotz Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990B70152CB83E010035730F /* Debug */,
+				990B70162CB83E010035730F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		99BE55A32CA78E2600F3DAB6 /* Build configuration list for PBXProject "Spotz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
