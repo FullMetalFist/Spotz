@@ -1,0 +1,15 @@
+{
+    "aps": {
+        "alert": {
+            "body": "You are within 5 miles of Rockaways",
+            "title": "Rockaway Beach Playground",
+            "subtitle": "Holla!"
+        },
+        "category": "Playground",
+        "thread-id": "5280"
+    },
+    
+    "spotIndex": 11,
+    
+    "Simulator Target Bundle": "FullMetalFistApps.Spotz.watchkitapp"
+}
