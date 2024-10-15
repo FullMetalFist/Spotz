@@ -25,7 +25,6 @@
 		990B70102CB83E010035730F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990B700F2CB83E010035730F /* Preview Assets.xcassets */; };
 		990B70132CB83E010035730F /* WatchSpotz Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 990B70062CB83E000035730F /* WatchSpotz Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		990B70182CB83E6F0035730F /* SpotRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CA2CAC94A100F3DAB6 /* SpotRow.swift */; };
-		990B70192CB83E6F0035730F /* SpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CC2CAC95CE00F3DAB6 /* SpotList.swift */; };
 		990B701A2CB83E6F0035730F /* SpotzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55AB2CA78E2600F3DAB6 /* SpotzApp.swift */; };
 		990B701B2CB83E6F0035730F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */; };
 		990B701C2CB83E6F0035730F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */; };
@@ -45,6 +44,26 @@
 		996C52E02CB0BA0300B358CB /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C52DF2CB0BA0300B358CB /* BadgeSymbol.swift */; };
 		996C52E22CB0BC3700B358CB /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C52E12CB0BC3700B358CB /* RotatedBadgeSymbol.swift */; };
 		996C52E42CB0BFFD00B358CB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C52E32CB0BFFD00B358CB /* Badge.swift */; };
+		9980CB7E2CBEB6D000574309 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980CB7D2CBEB6D000574309 /* ContentView.swift */; };
+		9980CB802CBEB6D100574309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9980CB7F2CBEB6D100574309 /* Assets.xcassets */; };
+		9980CB832CBEB6D100574309 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9980CB822CBEB6D100574309 /* Preview Assets.xcassets */; };
+		9980CB882CBEB7BC00574309 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BD2CAAED5E00F3DAB6 /* CircleImage.swift */; };
+		9980CB892CBEB7BC00574309 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D606A02CB1B7E2004088E2 /* Hike.swift */; };
+		9980CB8A2CBEB7BC00574309 /* SpotzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55AB2CA78E2600F3DAB6 /* SpotzApp.swift */; };
+		9980CB8B2CBEB7BC00574309 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55BF2CAAEEB200F3DAB6 /* MapView.swift */; };
+		9980CB8C2CBEB7BC00574309 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B6FEF2CB6BD980035730F /* Profile.swift */; };
+		9980CB8D2CBEB7BC00574309 /* SpotRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CA2CAC94A100F3DAB6 /* SpotRow.swift */; };
+		9980CB8E2CBEB7BC00574309 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55C52CAC847700F3DAB6 /* ModelData.swift */; };
+		9980CB8F2CBEB7BC00574309 /* SpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55CC2CAC95CE00F3DAB6 /* SpotList.swift */; };
+		9980CB902CBEB7BC00574309 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C52D72CAEBFB000B358CB /* FavoriteButton.swift */; };
+		9980CB912CBEB7BC00574309 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55C32CAC829100F3DAB6 /* Spot.swift */; };
+		9980CB922CBEB7BC00574309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55AF2CA78E2800F3DAB6 /* Assets.xcassets */; };
+		9980CB932CBEB7BC00574309 /* parkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55C12CAC800E00F3DAB6 /* parkData.json */; };
+		9980CB942CBEB7BC00574309 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 99D606A22CB1B88C004088E2 /* hikeData.json */; };
+		9980CB972CBEB8E000574309 /* SpotDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980CB962CBEB8E000574309 /* SpotDetail.swift */; };
+		9980CB992CBEBF1700574309 /* SpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980CB982CBEBF1700574309 /* SpotList.swift */; };
+		9980CB9B2CBED7EB00574309 /* SpotCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980CB9A2CBED7EB00574309 /* SpotCommands.swift */; };
+		9980CB9D2CBEDC4900574309 /* SpotSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980CB9C2CBEDC4900574309 /* SpotSettings.swift */; };
 		99BE55AC2CA78E2600F3DAB6 /* SpotzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55AB2CA78E2600F3DAB6 /* SpotzApp.swift */; };
 		99BE55AE2CA78E2600F3DAB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE55AD2CA78E2600F3DAB6 /* ContentView.swift */; };
 		99BE55B02CA78E2800F3DAB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BE55AF2CA78E2800F3DAB6 /* Assets.xcassets */; };
@@ -116,6 +135,15 @@
 		996C52DF2CB0BA0300B358CB /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		996C52E12CB0BC3700B358CB /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		996C52E32CB0BFFD00B358CB /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		9980CB792CBEB6D000574309 /* MacSpotz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSpotz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9980CB7D2CBEB6D000574309 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9980CB7F2CBEB6D100574309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9980CB822CBEB6D100574309 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9980CB842CBEB6D100574309 /* MacSpotz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacSpotz.entitlements; sourceTree = "<group>"; };
+		9980CB962CBEB8E000574309 /* SpotDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetail.swift; sourceTree = "<group>"; };
+		9980CB982CBEBF1700574309 /* SpotList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotList.swift; sourceTree = "<group>"; };
+		9980CB9A2CBED7EB00574309 /* SpotCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotCommands.swift; sourceTree = "<group>"; };
+		9980CB9C2CBEDC4900574309 /* SpotSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotSettings.swift; sourceTree = "<group>"; };
 		99BE55A82CA78E2600F3DAB6 /* Spotz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BE55AB2CA78E2600F3DAB6 /* SpotzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotzApp.swift; sourceTree = "<group>"; };
 		99BE55AD2CA78E2600F3DAB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +167,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		990B70032CB83E000035730F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9980CB762CBEB6D000574309 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				990B700A2CB83E000035730F /* ContentView.swift */,
+				9980CB982CBEBF1700574309 /* SpotList.swift */,
 				990812852CB86AFB008CCF7A /* SpotDetail.swift */,
 				9956496D2CB97407006E4192 /* NotificationView.swift */,
 				9956496F2CB975C1006E4192 /* NotificationController.swift */,
@@ -240,11 +276,34 @@
 			path = Badges;
 			sourceTree = "<group>";
 		};
+		9980CB7A2CBEB6D000574309 /* MacSpotz */ = {
+			isa = PBXGroup;
+			children = (
+				9980CB7D2CBEB6D000574309 /* ContentView.swift */,
+				9980CB962CBEB8E000574309 /* SpotDetail.swift */,
+				9980CB9A2CBED7EB00574309 /* SpotCommands.swift */,
+				9980CB9C2CBEDC4900574309 /* SpotSettings.swift */,
+				9980CB7F2CBEB6D100574309 /* Assets.xcassets */,
+				9980CB842CBEB6D100574309 /* MacSpotz.entitlements */,
+				9980CB812CBEB6D100574309 /* Preview Content */,
+			);
+			path = MacSpotz;
+			sourceTree = "<group>";
+		};
+		9980CB812CBEB6D100574309 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9980CB822CBEB6D100574309 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		99BE559F2CA78E2600F3DAB6 = {
 			isa = PBXGroup;
 			children = (
 				99BE55AA2CA78E2600F3DAB6 /* Spotz */,
 				990B70072CB83E000035730F /* WatchSpotz Watch App */,
+				9980CB7A2CBEB6D000574309 /* MacSpotz */,
 				99BE55A92CA78E2600F3DAB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -254,6 +313,7 @@
 			children = (
 				99BE55A82CA78E2600F3DAB6 /* Spotz.app */,
 				990B70062CB83E000035730F /* WatchSpotz Watch App.app */,
+				9980CB792CBEB6D000574309 /* MacSpotz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -346,6 +406,23 @@
 			productReference = 990B70062CB83E000035730F /* WatchSpotz Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9980CB782CBEB6D000574309 /* MacSpotz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9980CB872CBEB6D100574309 /* Build configuration list for PBXNativeTarget "MacSpotz" */;
+			buildPhases = (
+				9980CB752CBEB6D000574309 /* Sources */,
+				9980CB762CBEB6D000574309 /* Frameworks */,
+				9980CB772CBEB6D000574309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacSpotz;
+			productName = MacSpotz;
+			productReference = 9980CB792CBEB6D000574309 /* MacSpotz.app */;
+			productType = "com.apple.product-type.application";
+		};
 		99BE55A72CA78E2600F3DAB6 /* Spotz */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99BE55B62CA78E2800F3DAB6 /* Build configuration list for PBXNativeTarget "Spotz" */;
@@ -378,6 +455,9 @@
 					990B70052CB83E000035730F = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					9980CB782CBEB6D000574309 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					99BE55A72CA78E2600F3DAB6 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -398,6 +478,7 @@
 			targets = (
 				99BE55A72CA78E2600F3DAB6 /* Spotz */,
 				990B70052CB83E000035730F /* WatchSpotz Watch App */,
+				9980CB782CBEB6D000574309 /* MacSpotz */,
 			);
 		};
 /* End PBXProject section */
@@ -412,6 +493,18 @@
 				990B70222CB83E960035730F /* Assets.xcassets in Resources */,
 				990B70232CB83E960035730F /* hikeData.json in Resources */,
 				990B700D2CB83E010035730F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9980CB772CBEB6D000574309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9980CB832CBEB6D100574309 /* Preview Assets.xcassets in Resources */,
+				9980CB802CBEB6D100574309 /* Assets.xcassets in Resources */,
+				9980CB922CBEB7BC00574309 /* Assets.xcassets in Resources */,
+				9980CB932CBEB7BC00574309 /* parkData.json in Resources */,
+				9980CB942CBEB7BC00574309 /* hikeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,16 +530,37 @@
 				990B700B2CB83E000035730F /* ContentView.swift in Sources */,
 				990B70182CB83E6F0035730F /* SpotRow.swift in Sources */,
 				9956496E2CB97407006E4192 /* NotificationView.swift in Sources */,
-				990B70192CB83E6F0035730F /* SpotList.swift in Sources */,
 				990B70252CB8402B0035730F /* FavoriteButton.swift in Sources */,
 				990B701D2CB83E870035730F /* Spot.swift in Sources */,
 				990B701E2CB83E870035730F /* Hike.swift in Sources */,
 				990B701F2CB83E870035730F /* Profile.swift in Sources */,
 				990B70202CB83E870035730F /* ModelData.swift in Sources */,
 				995649702CB975C1006E4192 /* NotificationController.swift in Sources */,
+				9980CB992CBEBF1700574309 /* SpotList.swift in Sources */,
 				990B701A2CB83E6F0035730F /* SpotzApp.swift in Sources */,
 				990B701B2CB83E6F0035730F /* CircleImage.swift in Sources */,
 				990B701C2CB83E6F0035730F /* MapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9980CB752CBEB6D000574309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9980CB972CBEB8E000574309 /* SpotDetail.swift in Sources */,
+				9980CB7E2CBEB6D000574309 /* ContentView.swift in Sources */,
+				9980CB882CBEB7BC00574309 /* CircleImage.swift in Sources */,
+				9980CB892CBEB7BC00574309 /* Hike.swift in Sources */,
+				9980CB9D2CBEDC4900574309 /* SpotSettings.swift in Sources */,
+				9980CB8A2CBEB7BC00574309 /* SpotzApp.swift in Sources */,
+				9980CB8B2CBEB7BC00574309 /* MapView.swift in Sources */,
+				9980CB8C2CBEB7BC00574309 /* Profile.swift in Sources */,
+				9980CB8D2CBEB7BC00574309 /* SpotRow.swift in Sources */,
+				9980CB8E2CBEB7BC00574309 /* ModelData.swift in Sources */,
+				9980CB8F2CBEB7BC00574309 /* SpotList.swift in Sources */,
+				9980CB9B2CBED7EB00574309 /* SpotCommands.swift in Sources */,
+				9980CB902CBEB7BC00574309 /* FavoriteButton.swift in Sources */,
+				9980CB912CBEB7BC00574309 /* Spot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +673,64 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		9980CB852CBEB6D100574309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacSpotz/MacSpotz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacSpotz/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q3CLN5Y6Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FullMetalFistApps.MacSpotz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9980CB862CBEB6D100574309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacSpotz/MacSpotz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacSpotz/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q3CLN5Y6Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FullMetalFistApps.MacSpotz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -749,6 +921,15 @@
 			buildConfigurations = (
 				990B70152CB83E010035730F /* Debug */,
 				990B70162CB83E010035730F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9980CB872CBEB6D100574309 /* Build configuration list for PBXNativeTarget "MacSpotz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9980CB852CBEB6D100574309 /* Debug */,
+				9980CB862CBEB6D100574309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
