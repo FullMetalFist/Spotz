@@ -16,9 +16,20 @@ struct SpotzApp: App {
             ContentView()
                 .environment(modelData)
         }
+        #if !os(watchOS)
+        .commands {
+            SpotCommands()
+        }
+        #endif
         
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "SpotzNear")
+        #endif
+        
+        #if os(macOS)
+        Settings {
+            SpotSettings()
+        }
         #endif
     }
 }

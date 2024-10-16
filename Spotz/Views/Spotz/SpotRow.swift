@@ -12,9 +12,19 @@ struct SpotRow: View {
     
     var body: some View {
         HStack {
-            spot.image.resizable()
+            spot.image
+                .resizable()
                 .frame(width: 50,height: 50)
-            Text(spot.name)
+                .cornerRadius(5)
+            VStack(alignment: .leading) {
+                Text(spot.name)
+                    .bold()
+                #if !os(watchOS)
+                Text(spot.park)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                #endif
+            }
             
             Spacer()
             
@@ -23,6 +33,7 @@ struct SpotRow: View {
                     .foregroundColor(.yellow)
             }
         }
+        .padding(.vertical, 4)
     }
 }
 
